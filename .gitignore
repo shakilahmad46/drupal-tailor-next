@@ -89,6 +89,20 @@ config.local.yml
 .console/
 .vagrant/
 
+# DDEV
+.ddev/.globalcommands/
+.ddev/.webimageBuild/
+.ddev/.dbimageBuild/
+.ddev/db_snapshots/
+.ddev/import-db/
+.ddev/sequelpro.spf
+.ddev/import.yaml
+.ddev/docker-compose.*.yaml
+.ddev/.pgpass
+.ddev/.ddev-docker-compose-*
+.ddev/traefik/certs/
+.ddev/mutagen/
+
 # Package files
 *.tgz
 *.tar.gz
