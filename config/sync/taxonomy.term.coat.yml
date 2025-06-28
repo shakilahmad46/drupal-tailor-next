@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.measurement_type
+name: 'Coat'
+description:
+  value: 'Formal coat or blazer'
+  format: basic_html
+weight: 2
+parent: 0
+vid: measurement_type
+uuid: 33333333-3333-3333-3333-333333333333

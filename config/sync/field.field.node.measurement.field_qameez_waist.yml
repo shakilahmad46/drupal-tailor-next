@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_qameez_waist
+    - node.type.measurement
+id: node.measurement.field_qameez_waist
+field_name: field_qameez_waist
+entity_type: node
+bundle: measurement
+label: 'Qameez Waist'
+description: 'Waist measurement for Qameez'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ' inches'
+field_type: decimal

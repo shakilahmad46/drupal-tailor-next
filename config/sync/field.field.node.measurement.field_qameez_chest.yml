@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_qameez_chest
+    - node.type.measurement
+id: node.measurement.field_qameez_chest
+field_name: field_qameez_chest
+entity_type: node
+bundle: measurement
+label: 'Qameez Chest'
+description: 'Chest measurement for Qameez'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ' inches'
+field_type: decimal

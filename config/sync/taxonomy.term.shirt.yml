@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.measurement_type
+name: 'Shirt'
+description:
+  value: 'Formal or casual shirt'
+  format: basic_html
+weight: 1
+parent: 0
+vid: measurement_type
+uuid: 22222222-2222-2222-2222-222222222222

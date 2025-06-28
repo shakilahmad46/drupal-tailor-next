@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_shalwar_knee
+    - node.type.measurement
+id: node.measurement.field_shalwar_knee
+field_name: field_shalwar_knee
+entity_type: node
+bundle: measurement
+label: 'Shalwar Knee'
+description: 'Knee measurement for Shalwar'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ' inches'
+field_type: decimal

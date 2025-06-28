@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_coat_sleeve_length
+    - node.type.measurement
+id: node.measurement.field_coat_sleeve_length
+field_name: field_coat_sleeve_length
+entity_type: node
+bundle: measurement
+label: 'Coat Sleeve Length'
+description: 'Sleeve length for Coat'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ' inches'
+field_type: decimal

@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_coat_armhole
+    - node.type.measurement
+id: node.measurement.field_coat_armhole
+field_name: field_coat_armhole
+entity_type: node
+bundle: measurement
+label: 'Coat Armhole'
+description: 'Armhole measurement for Coat'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ' inches'
+field_type: decimal

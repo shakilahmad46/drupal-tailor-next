@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.measurement_type
+name: 'Waistcoat'
+description:
+  value: 'Sleeveless garment worn over shirt'
+  format: basic_html
+weight: 3
+parent: 0
+vid: measurement_type
+uuid: 44444444-4444-4444-4444-444444444444

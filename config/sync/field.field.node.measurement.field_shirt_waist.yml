@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_shirt_waist
+    - node.type.measurement
+id: node.measurement.field_shirt_waist
+field_name: field_shirt_waist
+entity_type: node
+bundle: measurement
+label: 'Shirt Waist'
+description: 'Waist measurement for Shirt'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ' inches'
+field_type: decimal

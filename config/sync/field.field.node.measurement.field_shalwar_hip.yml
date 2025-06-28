@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_shalwar_hip
+    - node.type.measurement
+id: node.measurement.field_shalwar_hip
+field_name: field_shalwar_hip
+entity_type: node
+bundle: measurement
+label: 'Shalwar Hip'
+description: 'Hip measurement for Shalwar'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ' inches'
+field_type: decimal

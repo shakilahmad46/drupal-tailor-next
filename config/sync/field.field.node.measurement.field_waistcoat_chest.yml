@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_waistcoat_chest
+    - node.type.measurement
+id: node.measurement.field_waistcoat_chest
+field_name: field_waistcoat_chest
+entity_type: node
+bundle: measurement
+label: 'Waistcoat Chest'
+description: 'Chest measurement for Waistcoat'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ' inches'
+field_type: decimal

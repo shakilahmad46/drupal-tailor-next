@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Measurement Type'
+vid: measurement_type
+description: 'Types of garments for measurements'
+weight: 0

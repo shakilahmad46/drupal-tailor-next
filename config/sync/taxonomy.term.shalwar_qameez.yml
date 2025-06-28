@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.measurement_type
+name: 'Shalwar Qameez'
+description:
+  value: 'Traditional Pakistani outfit consisting of Qameez (shirt) and Shalwar (loose trousers)'
+  format: basic_html
+weight: 0
+parent: 0
+vid: measurement_type
+uuid: 11111111-1111-1111-1111-111111111111
